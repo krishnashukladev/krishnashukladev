@@ -49,7 +49,7 @@ text{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;fill:#e6edf3}
 <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#2b3b55" stroke-opacity=".55" stroke-width="1.4"/>
 
 <g class="enter">
-  <text x="56" y="64" font-size="15" font-weight="600" letter-spacing="4" fill="#36bcf7" class="mono">// 05 — SAY HELLO</text>
+  <text x="56" y="64" font-size="15" font-weight="600" letter-spacing="4" fill="#36bcf7" class="mono">// 06 — SAY HELLO</text>
   <text x="56" y="102" font-size="34" font-weight="800" letter-spacing="1" fill="url(#accent)" filter="url(#soft)">LET'S BUILD WHAT'S NEXT</text>
   <rect x="56" y="120" width="220" height="2.5" rx="1.25" fill="url(#hairline)"/>
 </g><g class="enter" style="animation-delay:0.1s">

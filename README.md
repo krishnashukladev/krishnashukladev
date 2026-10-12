@@ -20,7 +20,6 @@ IMPORTANT: Upload the "assets" folder along with this README — all SVGs live i
   <a href="mailto:shuklakrishna360@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=krishnashukladev&style=for-the-badge&color=36BCF7&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <!-- ============================ ABOUT ============================ -->
@@ -41,14 +40,7 @@ IMPORTANT: Upload the "assets" folder along with this README — all SVGs live i
 
 <!-- ============================ WHAT YOU'LL FIND ============================ -->
 
-## 📁 What You'll Find Here
-
-- 🧪 **Labs & experiments** — hands-on practice with Linux, Docker, and CI/CD
-- 📜 **Scripts & configs** — Bash snippets and configuration examples
-- 📝 **Learning notes** — documented setups, troubleshooting, and lessons learned
-- 🚀 **Projects** — each with its purpose, setup steps, tools used, and takeaways
-
-Repositories here reflect **actual progress** — nothing planned is labelled as done.
+<img src="./assets/repos.svg" width="100%" alt="What You'll Find Here — labs and experiments, scripts and configs, learning notes, projects" />
 
 <!-- ============================ CONNECT ============================ -->
 
