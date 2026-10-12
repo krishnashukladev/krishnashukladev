@@ -7,20 +7,19 @@ IMPORTANT: Upload the "assets" folder along with this README — all SVGs live i
 <!-- ============================ HERO ============================ -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Krishna Shukla — Aspiring DevOps Engineer | Linux, Git, Docker, CI/CD | BCA Student at Maharishi University, Lucknow" />
+<img src="./assets/hero.svg" width="100%" alt="Krishna Shukla — Aspiring DevOps Engineer | Linux, Git, Docker, CI/CD | BCA Student at Maharishi University, Lucknow" />
 </p>
 
 <p align="center">
-  <a href="https://krishnashukladev.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-36BCF7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/krishna-shukla-dev/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:shuklakrishna360@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=krishnashukladev&style=for-the-badge&color=36BCF7&label=PROFILE+VIEWS" alt="Profile views" />
+<a href="https://krishnashukladev.netlify.app/">
+<img src="https://img.shields.io/badge/Portfolio-36BCF7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/krishna-shukla-dev/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:shuklakrishna360@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 </p>
 
 <!-- ============================ ABOUT ============================ -->
@@ -55,8 +54,8 @@ Repositories here reflect **actual progress** — nothing planned is labelled as
 <img src="./assets/connect.svg" width="100%" alt="Connect — Portfolio, LinkedIn, Email. Based in Lucknow, India" />
 
 <p align="center">
-  <a href="https://krishnashukladev.netlify.app/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/krishna-shukla-dev/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:shuklakrishna360@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="https://github.com/krishnashukladev">GitHub</a>
+<a href="https://krishnashukladev.netlify.app/">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/krishna-shukla-dev/">LinkedIn</a> &nbsp;·&nbsp;
+<a href="mailto:shuklakrishna360@gmail.com">Email</a> &nbsp;·&nbsp;
+<a href="https://github.com/krishnashukladev">GitHub</a>
 </p>
