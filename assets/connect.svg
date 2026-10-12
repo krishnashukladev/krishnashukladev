@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Connect with Krishna">
+<title>Connect with Krishna</title><desc>Portfolio, LinkedIn and Email — let's build what's next</desc>
+<style>
+text{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;fill:#e6edf3}
+.mono{font-family:'Fira Code','Cascadia Code',Consolas,monospace}
+.enter{opacity:0;animation:entry .9s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes entry{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.float{animation:float 5.5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.blink{animation:blink 1.05s steps(2,end) infinite}
+@keyframes blink{50%{opacity:0}}
+.scanline{animation:scan 9s ease-in-out infinite}
+@keyframes scan{0%,20%{transform:translateX(-1400px)}80%,100%{transform:translateX(1400px)}}
+.shine{animation:shine 6s ease-in-out infinite}
+@keyframes shine{0%,30%{transform:translateX(-500px) skewX(-18deg)}70%,100%{transform:translateX(1500px) skewX(-18deg)}}
+.spin{transform-origin:center;transform-box:fill-box;animation:spin 9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.grow{transform:scaleX(0);transform-origin:left;animation:grow 1.4s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/><stop offset="55%" stop-color="#0e1524"/><stop offset="100%" stop-color="#101c33"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58e6ff"/><stop offset="55%" stop-color="#36bcf7"/><stop offset="100%" stop-color="#7aa2ff"/>
+  </linearGradient>
+  <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#36bcf7" stop-opacity="0"/><stop offset="50%" stop-color="#36bcf7" stop-opacity=".7"/><stop offset="100%" stop-color="#36bcf7" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="scanG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58e6ff" stop-opacity="0"/><stop offset="50%" stop-color="#58e6ff" stop-opacity=".10"/><stop offset="100%" stop-color="#58e6ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#d2ecff" stop-opacity=".14"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop offset="0%" stop-color="#1266ed" stop-opacity=".30"/><stop offset="100%" stop-color="#1266ed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo2"><stop offset="0%" stop-color="#36bcf7" stop-opacity=".16"/><stop offset="100%" stop-color="#36bcf7" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r=".8" fill="#99b1db" opacity=".12"/></pattern>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="18" fill="url(#dots)"/>
+<circle cx="1020" cy="50" r="315" fill="url(#halo)"/>
+<circle cx="72" cy="399" r="273" fill="url(#halo2)"/>
+<rect class="scanline" x="0" y="0" width="340" height="420" fill="url(#scanG)"/>
+<rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#2b3b55" stroke-opacity=".55" stroke-width="1.4"/>
+
+<g class="enter">
+  <text x="56" y="64" font-size="15" font-weight="600" letter-spacing="4" fill="#36bcf7" class="mono">// 05 — SAY HELLO</text>
+  <text x="56" y="102" font-size="34" font-weight="800" letter-spacing="1" fill="url(#accent)" filter="url(#soft)">LET'S BUILD WHAT'S NEXT</text>
+  <rect x="56" y="120" width="220" height="2.5" rx="1.25" fill="url(#hairline)"/>
+</g><g class="enter" style="animation-delay:0.1s">
+<text x="56" y="158" font-size="17.5" font-weight="400" fill="#a8b6cc">Open to DevOps internships, collaboration on beginner-friendly projects, and feedback on my work.</text>
+</g>
+<g class="float" style="animation-delay:0s"><g class="enter" style="animation-delay:0.2s">
+  <rect x="56" y="200" width="340" height="76" rx="14" fill="#36bcf7" fill-opacity=".13" stroke="#36bcf7" stroke-opacity=".55" stroke-width="1.4"/>
+  <rect x="70" y="214" width="48" height="48" rx="10" fill="#36bcf7" fill-opacity=".2"/>
+  <path transform="translate(80,224) scale(1.18)" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm7.93 9h-3.02a15.7 15.7 0 0 0-1.2-5.2A8.02 8.02 0 0 1 19.93 11zM12 4.1c.9 1.2 1.7 3 1.95 6.9h-3.9c.25-3.9 1.05-5.7 1.95-6.9zM8.29 5.8A15.7 15.7 0 0 0 7.09 11H4.07a8.02 8.02 0 0 1 4.22-5.2zM4.07 13h3.02c.2 2.2.6 3.9 1.2 5.2A8.02 8.02 0 0 1 4.07 13zM12 19.9c-.9-1.2-1.7-3-1.95-6.9h3.9c-.25 3.9-1.05 5.7-1.95 6.9zm3.71-1.7c.6-1.3 1-3 1.2-5.2h3.02a8.02 8.02 0 0 1-4.22 5.2z" fill="#36bcf7"/>
+  <text x="132" y="232" font-size="17" font-weight="700" fill="#e6edf3">Portfolio</text>
+  <text x="132" y="256" font-size="13" fill="#a8b6cc" class="mono">krishnashukladev.netlify.app</text>
+</g></g>
+<g class="float" style="animation-delay:0.4s"><g class="enter" style="animation-delay:0.32s">
+  <rect x="430" y="200" width="340" height="76" rx="14" fill="#0A66C2" fill-opacity=".13" stroke="#0A66C2" stroke-opacity=".55" stroke-width="1.4"/>
+  <rect x="444" y="214" width="48" height="48" rx="10" fill="#0A66C2" fill-opacity=".2"/>
+  <path transform="translate(454,224) scale(1.18)" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" fill="#0A66C2"/>
+  <text x="506" y="232" font-size="17" font-weight="700" fill="#e6edf3">LinkedIn</text>
+  <text x="506" y="256" font-size="13" fill="#a8b6cc" class="mono">/in/krishna-shukla-dev</text>
+</g></g>
+<g class="float" style="animation-delay:0.8s"><g class="enter" style="animation-delay:0.44s">
+  <rect x="804" y="200" width="340" height="76" rx="14" fill="#EA4335" fill-opacity=".13" stroke="#EA4335" stroke-opacity=".55" stroke-width="1.4"/>
+  <rect x="818" y="214" width="48" height="48" rx="10" fill="#EA4335" fill-opacity=".2"/>
+  <path transform="translate(828,224) scale(1.18)" d="M2 5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5zm2.3.5 7.7 6.2 7.7-6.2H4.3zM20 7.3l-8 6.4-8-6.4V19h16V7.3z" fill="#EA4335"/>
+  <text x="880" y="232" font-size="17" font-weight="700" fill="#e6edf3">Email</text>
+  <text x="880" y="256" font-size="13" fill="#a8b6cc" class="mono">shuklakrishna360@gmail.com</text>
+</g></g>
+<g class="enter" style="animation-delay:.6s">
+  <circle cx="66" cy="320" r="4.5" fill="#39d353" class="pulse"/>
+  <text x="82" y="325" font-size="14" font-weight="600" fill="#9fd8ff">Lucknow, Uttar Pradesh, India — usually replies within a day</text>
+</g>
+<g>
+  <path fill="#36bcf7" fill-opacity=".10" d="M-600 372 Q-450 332 -300 372 T0 372 T300 372 T600 372 T900 372 T1200 372 T1500 372 T1800 372 V420 H-600 Z">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="600 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#36bcf7" fill-opacity=".14" d="M-600 390 Q-450 350 -300 390 T0 390 T300 390 T600 390 T900 390 T1200 390 T1500 390 T1800 390 V420 H-600 Z">
+    <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+</g>
+<text x="600" y="402" font-size="14" font-style="italic" fill="#7a8aa5" text-anchor="middle" class="enter" style="animation-delay:.75s">"Learning consistently. Building practically. Improving through iteration."</text>
+</svg>

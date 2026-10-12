@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="About Krishna Shukla">
+<title>About Krishna Shukla</title><desc>Aspiring DevOps Engineer, BCA student at Maharishi University, Lucknow</desc>
+<style>
+text{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;fill:#e6edf3}
+.mono{font-family:'Fira Code','Cascadia Code',Consolas,monospace}
+.enter{opacity:0;animation:entry .9s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes entry{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.float{animation:float 5.5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.blink{animation:blink 1.05s steps(2,end) infinite}
+@keyframes blink{50%{opacity:0}}
+.scanline{animation:scan 9s ease-in-out infinite}
+@keyframes scan{0%,20%{transform:translateX(-1400px)}80%,100%{transform:translateX(1400px)}}
+.shine{animation:shine 6s ease-in-out infinite}
+@keyframes shine{0%,30%{transform:translateX(-500px) skewX(-18deg)}70%,100%{transform:translateX(1500px) skewX(-18deg)}}
+.spin{transform-origin:center;transform-box:fill-box;animation:spin 9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.grow{transform:scaleX(0);transform-origin:left;animation:grow 1.4s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/><stop offset="55%" stop-color="#0e1524"/><stop offset="100%" stop-color="#101c33"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58e6ff"/><stop offset="55%" stop-color="#36bcf7"/><stop offset="100%" stop-color="#7aa2ff"/>
+  </linearGradient>
+  <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#36bcf7" stop-opacity="0"/><stop offset="50%" stop-color="#36bcf7" stop-opacity=".7"/><stop offset="100%" stop-color="#36bcf7" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="scanG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#58e6ff" stop-opacity="0"/><stop offset="50%" stop-color="#58e6ff" stop-opacity=".10"/><stop offset="100%" stop-color="#58e6ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#d2ecff" stop-opacity=".14"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop offset="0%" stop-color="#1266ed" stop-opacity=".30"/><stop offset="100%" stop-color="#1266ed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo2"><stop offset="0%" stop-color="#36bcf7" stop-opacity=".16"/><stop offset="100%" stop-color="#36bcf7" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r=".8" fill="#99b1db" opacity=".12"/></pattern>
+  <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="18" fill="url(#dots)"/>
+<circle cx="1020" cy="50" r="315" fill="url(#halo)"/>
+<circle cx="72" cy="399" r="273" fill="url(#halo2)"/>
+<rect class="scanline" x="0" y="0" width="340" height="420" fill="url(#scanG)"/>
+<rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#2b3b55" stroke-opacity=".55" stroke-width="1.4"/>
+
+<g class="enter">
+  <text x="56" y="64" font-size="15" font-weight="600" letter-spacing="4" fill="#36bcf7" class="mono">// 01 — WHO AM I</text>
+  <text x="56" y="102" font-size="34" font-weight="800" letter-spacing="1" fill="url(#accent)" filter="url(#soft)">ABOUT ME</text>
+  <rect x="56" y="120" width="220" height="2.5" rx="1.25" fill="url(#hairline)"/>
+</g>
+<g class="float"><g class="enter" style="animation-delay:.3s">
+  <rect x="880" y="120" width="272" height="150" rx="12" fill="#0b1220" stroke="#2b3b55" stroke-width="1.4"/>
+  <rect x="880" y="120" width="272" height="30" rx="12" fill="#131c2e"/>
+  <circle cx="900" cy="135" r="5" fill="#ff5f57"/><circle cx="918" cy="135" r="5" fill="#febc2e"/><circle cx="936" cy="135" r="5" fill="#28c840"/>
+  <text x="898" y="172" font-size="13" class="mono" fill="#39d353">$ uptime</text>
+  <text x="898" y="194" font-size="13" class="mono" fill="#9fd8ff">learning: 365 days</text>
+  <text x="898" y="216" font-size="13" class="mono" fill="#9fd8ff">status: consistent</text>
+  <text x="898" y="240" font-size="13" class="mono" fill="#39d353">$ deploy --future<tspan class="blink" fill="#58e6ff">▊</tspan></text>
+</g></g><g class="enter" style="animation-delay:0.1s">
+<text x="56" y="158" font-size="21" font-weight="700" fill="#e6edf3">Aspiring DevOps Engineer  |  BCA (IBM Program) @ Maharishi University</text>
+</g><g class="enter" style="animation-delay:0.2s">
+<text x="56" y="208" font-size="17.5" font-weight="400" fill="#c9d4e5">I'm a BCA student based in Lucknow, India, building a strong foundation in DevOps through</text>
+<text x="56" y="237" font-size="17.5" font-weight="400" fill="#c9d4e5">consistent, hands-on learning. I'm genuinely curious about how software moves from a</text>
+<text x="56" y="266" font-size="17.5" font-weight="400" fill="#c9d4e5">developer's machine to production — how it's version-controlled, packaged, deployed,</text>
+<text x="56" y="295" font-size="17.5" font-weight="400" fill="#c9d4e5">and kept running reliably.</text>
+</g><g class="enter" style="animation-delay:0.3s">
+<text x="56" y="330" font-size="17.5" font-weight="400" fill="#c9d4e5">My approach is simple: learn the fundamentals, practise them daily, document everything</text>
+<text x="56" y="359" font-size="17.5" font-weight="400" fill="#c9d4e5">I build, and improve through feedback.</text>
+</g>
+<g class="enter" style="animation-delay:.45s">
+  <rect x="56" y="380" width="190" height="30" rx="15" fill="#1266ed" fill-opacity=".12" stroke="#36bcf7" stroke-opacity=".45"/>
+  <circle cx="76" cy="395" r="4.5" fill="#39d353" class="pulse"/>
+  <text x="90" y="400" font-size="13.5" font-weight="600" fill="#9fd8ff">Lucknow, India</text>
+  <rect x="258" y="380" width="262" height="30" rx="15" fill="#1266ed" fill-opacity=".12" stroke="#36bcf7" stroke-opacity=".45"/>
+  <text x="278" y="400" font-size="13.5" font-weight="600" fill="#9fd8ff">Open to DevOps internships</text>
+</g></svg>
